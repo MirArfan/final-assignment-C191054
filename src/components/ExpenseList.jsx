@@ -18,7 +18,10 @@ export default function ExpenseList() {
             <li key={item.id} className="py-2.5">
               <div className="group flex justify-between gap-2 text-sm">
                 <span>
-                {item.title} - {item.category}
+                {item.title} 
+                </span>
+                <span>
+                 {item.category}
                 </span>
                 <div>
                   <span className="text-red-600">
